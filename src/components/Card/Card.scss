@@ -1,0 +1,33 @@
+.Card
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .santa
+    {
+        width: 200px;
+        height: 200px;
+        animation: App-logo-spin infinite 5s linear;
+        z-index: 0;
+    }
+
+    .setup
+    {
+        z-index: 1;
+    }
+
+    .delivery
+    {
+
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
